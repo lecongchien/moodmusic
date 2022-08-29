@@ -1,0 +1,100 @@
+.templates-panel {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    right: 80px;
+    border-radius: 24px;
+    margin-bottom: 70px;
+    overflow: hidden;
+    padding: 16px;
+    width: 360px;
+    z-index: 900;
+    background-color: #121212 !important;
+    &:hover {
+        .premium-banner {
+            opacity: 1;
+        }
+    }
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+.templates-header,
+.templates {
+    > h4 {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 1px;
+        margin: 16px 0;
+    }
+}
+.playlists-template {
+    display: flex;
+    justify-content: space-between;
+    > img {
+        width: 96px;
+        height: 120px;
+    }
+}
+.st {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.5;
+    letter-spacing: 0.5px;
+}
+.premium-banner {
+    background: radial-gradient(44.27% 50% at 50% 50%, #121212 18.23%, #12121260 100%);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    pointer-events: all;
+    position: absolute;
+    top: 0;
+    transition: opacity 0.2s ease;
+    z-index: 10000000000;
+}
+.center {
+    margin: 16px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.accent {
+    color: #f3a952;
+}
+.premium-preminum {
+    background-color: #f3a952;
+    border: 0;
+    border-radius: 32px;
+    color: #000;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin: 8px 0;
+    font-size: 20px;
+    min-width: 120px;
+    padding: 6px 16px;
+    transition: all 0.3s ease;
+}
+.premium-preminum:hover {
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 46.1875em) {
+    .templates-panel {
+        width: 300px;
+        top: 50%;
+        right: 70px;
+    }
+    .playlists-template {
+        > img {
+            width: 80px;
+        }
+    }
+}

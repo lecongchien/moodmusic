@@ -1,0 +1,33 @@
+.logo-animation {
+  width: 110px;
+  height: 72px;
+  position: relative;
+}
+
+.circle {
+  transform-style: preserve-3d;
+  position: relative;
+  top: 15px;
+  width: 110px;
+  height: 72px;
+  left: -5px;
+}
+.circle > span {
+  position: absolute;
+  left: 60px;
+  font-weight: bold;
+  transform-style: preserve-3d;
+  transform-origin: center;
+  text-transform: uppercase;
+  transform: rotateY(calc(var(--char-index) * 11.3deg)) translateZ(55px);
+  letter-spacing: 2px;
+  height: 30px;
+}
+.circle > span > p {
+  position: absolute;
+  line-height: 30px;
+  position: absolute;
+  font-size: 2.2rem;
+  color: #eff0ee;
+  -webkit-text-stroke: 0.5px #000;
+}/*# sourceMappingURL=Splitting.module.css.map */

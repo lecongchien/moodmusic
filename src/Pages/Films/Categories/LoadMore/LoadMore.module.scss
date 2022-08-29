@@ -1,0 +1,13 @@
+.load-more {
+    margin-top: 50px;
+    text-decoration: underline;
+    color: #fff;
+    background: 0 0;
+    border: 0;
+    font-weight: 300;
+}
+@media only screen and (max-width: 46.1875em) {
+    .load-more {
+        margin-top: 0;
+    }
+}

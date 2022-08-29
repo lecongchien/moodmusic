@@ -1,0 +1,26 @@
+.section {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 30px;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.footer {
+  position: absolute;
+  bottom: -3.4px;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 70px;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 30px;
+}/*# sourceMappingURL=contact.module.css.map */

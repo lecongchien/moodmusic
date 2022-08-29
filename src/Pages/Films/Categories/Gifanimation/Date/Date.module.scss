@@ -1,0 +1,18 @@
+.box-times {
+    position: absolute;
+    background: hsla(0, 0%, 100%, 0.15);
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 4px 6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media only screen and (max-width: 46.1875em) {
+    .box-times {
+        // right: -30px;
+        transform: translateX(-40%);
+        // left: -00px;
+    }
+}

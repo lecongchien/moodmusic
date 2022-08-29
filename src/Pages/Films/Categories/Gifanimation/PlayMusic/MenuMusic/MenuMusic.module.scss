@@ -1,0 +1,27 @@
+.lateral-menu {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #121212;
+    border-radius: 12px;
+    margin-right: 20px;
+    padding: 16px 0;
+}
+.logo-item {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    position: relative;
+    width: 60px;
+    font-size: 20px;
+}
+.label {
+    background-color: #363636;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 15px;
+    // margin-right: 20px;
+}

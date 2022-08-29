@@ -1,0 +1,37 @@
+// .circle {
+
+// }
+.header {
+    mix-blend-mode: difference;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 50px 60px 20px;
+    z-index: 2;
+}
+.header-left {
+    position: relative;
+    display: inline-block;
+}
+.header-logo {
+    max-width: 150px;
+}
+.header-right {
+    float: right;
+}
+.logo-anim {
+    > img {
+        width: 24px;
+    }
+}
+@media only screen and (max-width: 46.1875em) {
+    .header {
+        padding: 50px 40px 10px;
+    }
+}
+@media only screen and (min-width: 46.25em) {
+    .logo-anim {
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+.contact-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+    flex-wrap: wrap;
+}
+.contact-col {
+    padding-right: 10px;
+}
+.contact-title {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 0 40px;
+}

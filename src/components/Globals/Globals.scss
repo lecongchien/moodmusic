@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.33;
+    color: #fff;
+    width: 100vw;
+    text-rendering: optimizeSpeed;
+    background: #000;
+    background-image: url('/assets/image/noise1.gif');
+    // cursor: none;
+    scroll-behavior: smooth;
+}
+
+button,
+input,
+[tabindex] {
+    border: none;
+    outline: 0 !important;
+    font-family: 'Source Code Pro', monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+//scrollbar
+
+html *::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-track {
+    background-color: transparent !important;
+}
+
+.scrollbar-thumb {
+    display: none;
+}
+
+//font
+@font-face {
+    font-family: Source Code Pro;
+    src: url('/assets/font/DrukCond-Super.woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Source Code Pro;
+    src: url('/assets/font/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevW.woff2');
+    font-weight: 300;
+}
+
+//reuse hover

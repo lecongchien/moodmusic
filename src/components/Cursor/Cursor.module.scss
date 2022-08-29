@@ -1,0 +1,9 @@
+.Cursor {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}

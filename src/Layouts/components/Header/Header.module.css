@@ -1,0 +1,21 @@
+.header {
+  mix-blend-mode: difference;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 50px 60px 20px;
+}
+
+.header-left {
+  position: relative;
+  display: inline-block;
+}
+
+.header-logo {
+  max-width: 150px;
+}
+
+.header-right {
+  float: right;
+}/*# sourceMappingURL=Header.module.css.map */

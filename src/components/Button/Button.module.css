@@ -1,0 +1,28 @@
+.blackLink {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  position: relative;
+  padding-right: 14px;
+}
+.blackLink::before {
+  content: url("../../assets/svg/arrow-up.svg");
+  position: absolute;
+  top: -3px;
+  right: 0;
+}
+
+.whileLink {
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  position: relative;
+  display: inline-block;
+  padding-right: 14px;
+}
+.whileLink::before {
+  content: url("../../assets/svg/arrow-up-black.svg");
+  position: absolute;
+  top: -3px;
+  right: 0;
+}/*# sourceMappingURL=Button.module.css.map */

@@ -1,0 +1,22 @@
+.link-logo-1,
+.link-logo-2 {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.link-logo-1 {
+  width: 35px;
+  height: 35px;
+}
+
+.link-logo-2 {
+  width: 31px;
+  height: 37px;
+}
+
+.contact-col-1 > ul > li {
+  line-height: 13px;
+}
+.contact-col-1 > ul > li > a {
+  font-size: 11px;
+}/*# sourceMappingURL=footerWrap.module.css.map */
